@@ -6,6 +6,7 @@ const nextConfig = {
     domains: [
       'localhost',
       'digitalhippo-production.up.railway.app',
+      "photoboothshop-production.up.railway.app"
     ],
   },
 }
