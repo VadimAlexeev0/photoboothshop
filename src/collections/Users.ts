@@ -61,9 +61,6 @@ export const Users: CollectionConfig = {
 			label: "Full Name",
 			type: "text",
 			required: true,
-			admin: {
-				readOnly: true,
-			},
 		},
 		{
 			name: "role",
@@ -78,12 +75,8 @@ export const Users: CollectionConfig = {
 		},
 		{
 			name: "stripe_customer_id",
-
 			type: "text",
 			required: true,
-			admin: {
-				readOnly: true,
-			},
 		},
 	],
 };
